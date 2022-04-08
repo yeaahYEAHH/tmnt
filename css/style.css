@@ -20,7 +20,10 @@ a{
 ul{   
     list-style: none; 
     margin-top: -3rem;
-    display: inline-flex;
+    margin-left: -2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -43,7 +46,7 @@ ul{
 }
 
 .red{
-    width: 460px;
+    width: 480px;
     height: 126px;
     background-color:#D84444;
 }
@@ -70,9 +73,10 @@ button{
     width: 1148px;
     height: 253px;  
     margin-left: 20px;
-    margin-top: 0;
-    padding-top: 103px;
-    padding-bottom: 103px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    padding-top: 39px;
+    padding-bottom: 85px;
     padding-left: 34px;
     padding-right: 29px;
     text-align: left;
@@ -90,9 +94,10 @@ button{
     max-width: 1148px;
     height: 255px;
     margin-right: 20px;
-    margin-top: 0;
-    padding-top: 103px;
-    padding-bottom: 103px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    padding-top: 39px;
+    padding-bottom: 85px;
     padding-left: 34px;
     padding-right: 29px;
     text-align: left;
@@ -117,14 +122,9 @@ button{
 
 }
 
-
-
 .tmnt{
    margin-top: 2em
 }
-
-
-
 
 .mult{   
     display: inline;
@@ -134,13 +134,11 @@ button{
     margin-top: 2em;
     text-align: center;
     height: 223px;
-    width: 460px;
 }
 
 .icon img{
     padding-top: 40px;   
 }
-
 
 footer p{
     margin-top: -1em;
